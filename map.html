@@ -32,6 +32,11 @@
         .theGrid {
           height: 2.75%;
         }
+        .theGrid {
+          /* This adds an underline *solely* for debugging purposes, specifically
+             to test if this code is run on mobile devices. */
+          text-decoration: underline;
+        }
       }
       @media (min-resolution: 200dpi) {
         select {
@@ -49,6 +54,10 @@
         }
         body {
           font-size: 225%;
+        }
+        .theGrid scaletest {
+          /* The element states "unscaled", so hide if scaled */
+          display: none;
         }
       }
 
@@ -90,6 +99,8 @@
         <option value="purple">Purple </option>
       </select>
       <h3>Maps Demo</h3>
+      <!-- This is a test to see where scaling is in operation. -->
+      <p id="scaletest">Unscaled</p>
     </div>
     <div id="map"></div>
 
