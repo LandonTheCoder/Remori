@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <select name=”color”>
-    <option value=”red”>Red</option>
-    <option value=”purple”>Purple </option>
-    </select>
-  </div>
     <title>Geolocation</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
+        height: 97.25%;
+      }
+      .theGrid {
+        height: 2.4%; /* Roughly equivalent to the size before, including upscaling. */
+        display: grid;
+        align-items: center;
+        /* This makes the middle column roughly centered. The middle column is 7x the
+        width of the right column. */
+        grid-template-columns: 10% 7fr 1fr;
+        grid-gap: 5%;
+        
+        grid-auto-rows: 100%;
+      }
+      .theGrid h3 {
+        /* The title element. */
+        text-align: center;
+      }
+      @media (max-resolution: 199dpi) {
+        .theGrid select {
+          /* Make sure the dropdown fills the whole titlebar if not scaled. */
+          height: 100%;
+        }
+      }
+      @media (min-resolution: 200dpi) {
+        select {
+          /* This makes the dropdown the appropriate size. */
+          transform: scale(2.45);
+          width: 85%;
+
+          /* This keeps the dropdown aligned to the top-left corner, 
+          instead of overflowing when upscaled. */
+          position: relative;
+          left: 4.6em;
+          
+          /* This makes it show on top. */
+          z-index: 10;
+        }
+        body {
+          font-size: 225%;
+        }
       }
 
       /* Optional: Makes the sample page fill the window. */
@@ -47,6 +81,13 @@
     </script>
   </head>
   <body>
+    <div class="theGrid">
+      <select name="”color”">
+        <option value="”red”">Red</option>
+        <option value="”purple”">Purple </option>
+      </select>
+      <h3>Maps Demo</h3>
+    </div>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
