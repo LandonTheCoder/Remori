@@ -3,6 +3,8 @@
   <head>
     <title>Geolocation</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- Apparently this fixes mobile scaling. -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -24,14 +26,14 @@
         /* The title element. */
         text-align: center;
       }
+      .theGrid select {
+        /* Make sure the dropdown fills the whole titlebar if not scaled. */
+        height: 100%;
+      }
+      .theGrid {
+        height: 2.75%;
+      }
       @media (max-resolution: 199dpi) {
-        .theGrid select {
-          /* Make sure the dropdown fills the whole titlebar if not scaled. */
-          height: 100%;
-        }
-        .theGrid {
-          height: 2.75%;
-        }
         .theGrid #scaletest {
           /* This adds an underline *solely* for debugging purposes, specifically
              to test if this code is run on mobile devices. */
@@ -39,21 +41,8 @@
         }
       }
       @media (min-resolution: 200dpi) {
-        select {
-          /* This makes the dropdown the appropriate size. */
-          transform: scale(2.45);
-          width: 85%;
-
-          /* This keeps the dropdown aligned to the top-left corner, 
-          instead of overflowing when upscaled. */
-          position: relative;
-          left: 4.6em;
-          
-          /* This makes it show on top. */
-          z-index: 10;
-        }
-        body {
-          font-size: 225%;
+        .theGrid {
+          grid-template-columns: 3fr 7fr 3fr;
         }
         .theGrid #scaletest {
           /* The element states "unscaled", so hide if scaled */
