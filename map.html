@@ -33,14 +33,16 @@
       .theGrid {
         height: 2.75%;
       }
-      @media (max-resolution: 199dpi) {
+/*      @media (max-resolution: 199dpi) {*/
+      @media (min-width: 501px) {
         .theGrid #scaletest {
           /* This adds an underline *solely* for debugging purposes, specifically
              to test if this code is run on mobile devices. */
           text-decoration: underline;
         }
       }
-      @media (min-resolution: 200dpi) {
+/*      @media (min-resolution: 200dpi) {*/
+      @media (max-width: 500px) {
         .theGrid {
           grid-template-columns: 3fr 7fr 3fr;
         }
