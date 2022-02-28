@@ -1,55 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <select name=”color”>
+    <option value=”red”>Red</option>
+    <option value=”purple”>Purple </option>
+    </select>
+  </div>
     <title>Geolocation</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <!-- Apparently this fixes mobile scaling. -->
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 97.25%;
-      }
-      .theGrid {
-        height: 2.4%; /* Roughly equivalent to the size before, including upscaling. */
-        display: grid;
-        align-items: center;
-        /* This makes the middle column roughly centered. The middle column is 7x the
-        width of the right column. */
-        grid-template-columns: 10% 7fr 1fr;
-        grid-gap: 5%;
-        
-        grid-auto-rows: 100%;
-      }
-      .theGrid h3 {
-        /* The title element. */
-        text-align: center;
-      }
-      .theGrid select {
-        /* Make sure the dropdown fills the whole titlebar if not scaled. */
         height: 100%;
-      }
-      .theGrid {
-        height: 2.75%;
-      }
-/*      @media (max-resolution: 199dpi) {*/
-      @media (min-width: 501px) {
-        .theGrid #scaletest {
-          /* This adds an underline *solely* for debugging purposes, specifically
-             to test if this code is run on mobile devices. */
-          text-decoration: underline;
-        }
-      }
-/*      @media (min-resolution: 200dpi) {*/
-      @media (max-width: 500px) {
-        .theGrid {
-          grid-template-columns: 3fr 7fr 3fr;
-        }
-        .theGrid #scaletest {
-          /* The element states "unscaled", so hide if scaled */
-          display: none;
-        }
       }
 
       /* Optional: Makes the sample page fill the window. */
@@ -84,15 +47,6 @@
     </script>
   </head>
   <body>
-    <div class="theGrid">
-      <select name="color">
-        <option value="red">Red</option>
-        <option value="purple">Purple </option>
-      </select>
-      <h3>Maps Demo</h3>
-      <!-- This is a test to see where scaling is in operation. -->
-      <p id="scaletest">Unscaled</p>
-    </div>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
