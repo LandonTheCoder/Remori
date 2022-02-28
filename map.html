@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-    <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="map.html" class="active">Map</a>
-      <a href=".html">None</a>
-      <a href=".html">None</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </div>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Apparently this fixes mobile scaling. -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />  
     <title>Geolocation</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style type="text/css">
@@ -55,6 +46,16 @@
     </script>
   </head>
   <body>
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="map.html" class="active">Map</a>
+      <a href=".html">None</a>
+      <a href=".html">None</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
