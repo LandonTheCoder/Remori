@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="remori-icon-rounded2.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/landon/Code/git/Remori/remori-icon-rounded.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="962"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="0.65186406"
+     inkscape:cx="936.10921"
+     inkscape:cy="78.472347"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <color-profile
+       xlink:href="../.local/share/icc/edid-daef74de22218f287700f9d4f4226f23.icc"
+       name="LT1952p-Wide"
+       id="color-profile6" />
+    <color-profile
+       name="Artifex-PS-Gray-Profile"
+       xlink:href="file:///usr/share/color/icc/ghostscript/ps_gray.icc"
+       id="color-profile8" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#328386;fill-opacity:1"
+       id="rect5702"
+       width="512"
+       height="512"
+       x="0"
+       y="0"
+       ry="73.016525" />
+    <g
+       id="g849"
+       transform="matrix(2.9488517,0,0,2.9488517,-43.909727,-133.90292)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.370263;stroke-opacity:1"
+         d="m 69.461612,68.348272 c -0.179948,4.178381 -1.32221,8.472839 -2.064587,12.588942 -1.134116,6.290398 -2.198251,12.593015 -3.332367,18.883414 -3.890353,21.578562 -7.604091,43.193032 -11.357448,64.796022 -1.115232,6.41962 -2.240831,12.8411 -3.396792,19.25368 -0.727197,4.03179 -1.741718,8.13357 -2.064587,12.21868 h 34.43446 c 0.09886,-4.78787 1.330725,-9.70978 2.064586,-14.44026 1.707653,-11.01051 4.093999,-22.21837 4.970411,-33.32367 h 7.034997 c 0.978235,3.7e-4 2.315625,-0.19994 3.173154,0.38063 0.98453,0.66648 1.175211,2.27231 1.518081,3.322 0.92158,2.82474 1.83946,5.66095 2.66182,8.51605 2.28933,7.95066 5.11592,15.74655 7.40526,23.69683 0.74904,2.60184 1.57695,5.19627 2.40115,7.77553 0.3425,1.07154 0.60427,2.62998 1.38553,3.47936 0.64129,0.69683 1.69877,0.58724 2.56037,0.59316 2.2212,0.0155 4.44315,3.7e-4 6.66436,3.7e-4 h 27.0292 l -16.29157,-51.83682 c 5.49544,-1.7395 10.28146,-7.44155 13.16285,-12.21868 3.92997,-6.51478 5.28884,-13.7312 6.61808,-21.10499 2.21787,-12.30088 5.3951,-27.207669 -6.45146,-35.909812 -9.08218,-6.671695 -20.70548,-6.670436 -31.47236,-6.670436 z"
+         id="path22" />
+      <path
+         d="m 105.17215,137.70467 c 3.19133,0 6.12887,-2.61108 6.52787,-5.8024 h -11.60481 c -0.398998,3.19132 1.85661,5.8024 5.07694,5.8024 z m 19.58361,-17.40721 1.81366,-14.50601 C 127.683,96.884757 123.85725,89.42867 115.80647,87.455854 l 0.24666,-1.972817 c 0.30107,-2.407998 -1.39971,-4.351805 -3.8077,-4.351805 -2.408,0 -4.59484,1.943807 -4.8959,4.351805 l -0.24666,1.972817 C 98.529761,89.42867 92.872209,96.855747 91.754996,105.79145 l -1.81366,14.50601 -6.52787,5.8024 -0.362732,2.9012 h 46.419236 l 0.36273,-2.9012 z"
+         id="path60725"
+         style="fill:#328386;fill-opacity:1;stroke-width:2.9012" />
+    </g>
+  </g>
+</svg>
